@@ -97,11 +97,6 @@ namespace RussianAk47
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
         private void txtsafeplace_TextChanged(object sender, EventArgs e)
         { if (txtsafeplace.Text == "0")
             {

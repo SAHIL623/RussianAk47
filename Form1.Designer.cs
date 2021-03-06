@@ -46,7 +46,7 @@ namespace RussianAk47
             // 
             this.btnBullet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBullet.Location = new System.Drawing.Point(65, 324);
-            this.btnBullet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBullet.Margin = new System.Windows.Forms.Padding(4);
             this.btnBullet.Name = "btnBullet";
             this.btnBullet.Size = new System.Drawing.Size(164, 82);
             this.btnBullet.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace RussianAk47
             // 
             this.btnSpin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSpin.Location = new System.Drawing.Point(65, 437);
-            this.btnSpin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSpin.Margin = new System.Windows.Forms.Padding(4);
             this.btnSpin.Name = "btnSpin";
             this.btnSpin.Size = new System.Drawing.Size(164, 79);
             this.btnSpin.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace RussianAk47
             // 
             this.btnFire.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFire.Location = new System.Drawing.Point(816, 326);
-            this.btnFire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFire.Margin = new System.Windows.Forms.Padding(4);
             this.btnFire.Name = "btnFire";
             this.btnFire.Size = new System.Drawing.Size(164, 80);
             this.btnFire.TabIndex = 2;
@@ -82,7 +82,7 @@ namespace RussianAk47
             // 
             this.btnSafePlace.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSafePlace.Location = new System.Drawing.Point(815, 437);
-            this.btnSafePlace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSafePlace.Margin = new System.Windows.Forms.Padding(4);
             this.btnSafePlace.Name = "btnSafePlace";
             this.btnSafePlace.Size = new System.Drawing.Size(165, 79);
             this.btnSafePlace.TabIndex = 3;
@@ -94,7 +94,7 @@ namespace RussianAk47
             // 
             this.Bullettxt.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bullettxt.Location = new System.Drawing.Point(788, 183);
-            this.Bullettxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bullettxt.Margin = new System.Windows.Forms.Padding(4);
             this.Bullettxt.Multiline = true;
             this.Bullettxt.Name = "Bullettxt";
             this.Bullettxt.Size = new System.Drawing.Size(80, 51);
@@ -105,7 +105,7 @@ namespace RussianAk47
             // 
             this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResult.Location = new System.Drawing.Point(237, 412);
-            this.txtResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtResult.Margin = new System.Windows.Forms.Padding(4);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(568, 74);
@@ -117,7 +117,7 @@ namespace RussianAk47
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(815, 50);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(164, 80);
             this.button5.TabIndex = 7;
@@ -129,7 +129,7 @@ namespace RussianAk47
             // 
             this.txtsafeplace.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsafeplace.Location = new System.Drawing.Point(283, 50);
-            this.txtsafeplace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtsafeplace.Margin = new System.Windows.Forms.Padding(4);
             this.txtsafeplace.Multiline = true;
             this.txtsafeplace.Name = "txtsafeplace";
             this.txtsafeplace.Size = new System.Drawing.Size(79, 38);
@@ -164,7 +164,7 @@ namespace RussianAk47
             // 
             this.txtPoints.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPoints.Location = new System.Drawing.Point(283, 101);
-            this.txtPoints.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPoints.Margin = new System.Windows.Forms.Padding(4);
             this.txtPoints.Multiline = true;
             this.txtPoints.Name = "txtPoints";
             this.txtPoints.Size = new System.Drawing.Size(79, 38);
@@ -190,10 +190,9 @@ namespace RussianAk47
             this.Controls.Add(this.btnFire);
             this.Controls.Add(this.btnSpin);
             this.Controls.Add(this.btnBullet);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

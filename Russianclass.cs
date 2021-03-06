@@ -10,7 +10,7 @@ using System.Media;
 namespace RussianAk47
 {
 
-    class Russianclass //class
+    public class Russianclass //class
     {
         
         // sounds for clik buttons
@@ -51,7 +51,7 @@ namespace RussianAk47
             freeshoots--;
             if ( freeshoots == 0)
             {
-                notification = " You losse";
+                notification = "You losse";
             }
             
                shoot.Play();
